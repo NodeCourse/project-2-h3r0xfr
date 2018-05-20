@@ -1,0 +1,12 @@
+include inc/header.pug
+
+h1 Envoyer un fichier
+p Taille max: 
+    b 10 MB
+
+form#sendFile(action="", method="POST", enctype="multipart/form-data")
+        input(type="file", name="file", required)
+        input#sendBtn(type="submit", value="Envoyer")
+            
+script(src='/js/upload.js')
+include inc/footer.pug

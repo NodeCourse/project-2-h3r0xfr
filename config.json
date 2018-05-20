@@ -1,0 +1,8 @@
+{
+    "mysql": {
+        "host": "h3r0x.ovh",
+        "user": "nodejs-fileshare",
+        "pass": "lolilol69",
+        "db": "nodejs-fileshare"
+    }
+}

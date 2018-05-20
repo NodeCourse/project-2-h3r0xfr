@@ -15,5 +15,16 @@
   "bugs": {
     "url": "https://github.com/NodeCourse/project-2-h3r0xfr/issues"
   },
-  "homepage": "https://github.com/NodeCourse/project-2-h3r0xfr#readme"
+  "homepage": "https://github.com/NodeCourse/project-2-h3r0xfr#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-group-routes": "^1.1.0",
+    "formidable": "^1.2.1",
+    "moment": "^2.22.1",
+    "mysql2": "^1.5.3",
+    "npm": "^6.0.1",
+    "pug": "^2.0.3",
+    "sequelize": "^4.37.8",
+    "unirest": "^0.5.1"
+  }
 }

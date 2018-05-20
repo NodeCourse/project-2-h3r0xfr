@@ -1,0 +1,12 @@
+include inc/header.pug
+
+h1 #{file.name}
+p Taille: <b>#{size}</b>
+p Nombre de téléchargements: 
+    span#nbDownloads <b>#{file.nbDownloads}</b>
+p Date d'envoi: <b>#{moment(file.createdAt).format('DD/MM/YYYY à hh:mm:ss')}</b>
+p Analyse antivirus: <b>#{scan.status}</b>
+a#download(href=file.path.replace('./public', ''), download=file.name, data-id=file.id) Télécharger
+
+script(src='/js/download.js')
+include inc/footer.pug

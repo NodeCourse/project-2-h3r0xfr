@@ -1,0 +1,10 @@
+include inc/header.pug
+
+h1 File Upload
+a(href='/upload') Envoyer un fichier
+
+hr
+p Derniers fichiers envoyés
+each file in files
+    div
+        a(href='/file/' + file.id) #{file.name}
